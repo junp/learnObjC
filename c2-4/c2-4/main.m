@@ -1,8 +1,8 @@
 //
 //  main.m
-//  c1
+//  c2-4
 //
-//  Created by junp on 15-7-10.
+//  Created by junp on 15-7-11.
 //  Copyright (c) 2015年 junp. All rights reserved.
 //
 
@@ -11,12 +11,15 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-    
-        NSLog(@"Learn Object-C");
-        NSLog(@"Learn Object-C onemore time");
-        NSLog(@"Testing..\n..1\n...2\n....3");
+        
+        int sum;
+        
+        sum = 25 + 37 - 19;
+        
+        NSLog(@"The answer is %i", sum);
         
     }
     
     return 0;
+    
 }
